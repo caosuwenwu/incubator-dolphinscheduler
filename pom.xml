@@ -242,7 +242,6 @@
                 <artifactId>dolphinscheduler-alert</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-framework</artifactId>
@@ -723,6 +722,7 @@
                         <include>**/dao/mapper/AlertGroupMapperTest.java</include>
                         <include>**/dao/mapper/AlertMapperTest.java</include>
                         <include>**/dao/mapper/CommandMapperTest.java</include>
+                        <include>**/dao/entity/TaskInstanceTest.java</include>
                         <include>**/dao/cron/CronUtilsTest.java</include>
                         <include>**/dao/utils/DagHelperTest.java</include>
                         <include>**/alert/template/AlertTemplateFactoryTest.java</include>
